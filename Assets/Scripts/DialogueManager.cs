@@ -6,7 +6,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// 비주얼 노벨 시스템 스크립트
+/// <summary>
+/// Visual Novel Script
+/// </summary>
+
 public class DialogueManager : MonoBehaviour
 {
     public Image backgroundImage;
@@ -18,14 +21,14 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI speakerText;
     public TextMeshProUGUI dialogueText;
 
-    // 타이핑 효과
+    // Typing effect
     [SerializeField]
     private float typingSpeed = 0.05f;
     private Coroutine typingCoroutine;
     private bool isTyping = false;
     public AudioSource typingSound;
 
-    // 캐릭터
+    // Character
     [System.Serializable]
     public class CharacterData
     {
@@ -33,7 +36,7 @@ public class DialogueManager : MonoBehaviour
         public Sprite sprite;
     }
 
-    // 배경
+    // Background Image
     [System.Serializable]
     public class BackgroundData
     {
@@ -64,7 +67,7 @@ public class DialogueManager : MonoBehaviour
     private List<DialogueEntry> dialogueData;
     private int currentID = 0;
 
-    // 선택지
+    // Option
     [System.Serializable]
     public class Choice
     {
@@ -87,9 +90,17 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         LoadDialogue();
+
+        // for Minigame
+        if (PlayerPrefs.HasKey("ResumeID"))
+        {
+            currentID = PlayerPrefs.GetInt("ResumeID");
+            PlayerPrefs.DeleteKey("ResumeID");
+        }
+
         ShowEntry(currentID);
 
-        // 플레이어가 그린 캐릭터 추가
+        // Adding player character
         Sprite playerSprite = DrawingLoader.LoadPlayerDrawing();
 
         if (playerSprite != null)
@@ -100,16 +111,13 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        // UI 클릭 감지 방지 (선택지 버튼 누를 때)
-        //if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
-        //    return;
-
-        if (Input.GetMouseButtonDown(0))  // 왼쪽 클릭 또는 터치
+        if (Input.GetMouseButtonDown(0))
         {
             NextButton();
         }
     }
 
+    // Get JSON File
     private void LoadDialogue()
     {
         TextAsset jsonText = Resources.Load<TextAsset>("Dialogue/VN");
@@ -133,34 +141,40 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-        // 미니게임
+        // Minigame
         if (!string.IsNullOrEmpty(entry.command))
         {
-            if (entry.command == "start_minigame1")
+            // Save restart entry
+            if (entry.nextID >= 0)
             {
-                SceneManager.LoadScene("Platformer");
+                PlayerPrefs.SetInt("ResumeID", entry.nextID);
+                Debug.Log($"[DialogueManager] Saved return ID {entry.nextID} before loading minigame");
             }
-            else if (entry.command == "start_minigame2")
+
+            // Move to Minigame
+            switch (entry.command)
             {
-                SceneManager.LoadScene("Flower");
-            }
-            else if (entry.command == "start_minigame3")
-            {
-                SceneManager.LoadScene("Wally");
-            }
-            else if (entry.command == "start_minigame4")
-            {
-                SceneManager.LoadScene("Fruit");
-            }
-            else if (entry.command == "start_minigame5")
-            {
-                SceneManager.LoadScene("Maze");
+                case "start_minigame1":
+                    SceneManager.LoadScene("Platformer");
+                    break;
+                case "start_minigame2":
+                    SceneManager.LoadScene("Flower");
+                    break;
+                case "start_minigame3":
+                    SceneManager.LoadScene("Shape");
+                    break;
+                case "start_minigame4":
+                    SceneManager.LoadScene("Fruit");
+                    break;
+                case "start_minigame5":
+                    SceneManager.LoadScene("Maze");
+                    break;
             }
 
             return;
         }
 
-        // 대사
+        // Dialogue
         if (typingCoroutine != null)
         {
             StopCoroutine(typingCoroutine);
@@ -168,7 +182,7 @@ public class DialogueManager : MonoBehaviour
 
         typingCoroutine = StartCoroutine(TypeText(entry));
 
-        // 배경
+        // Background
         if (!string.IsNullOrEmpty(entry.background))
         {
             Sprite bgSprite = GetBackgroundSprite(entry.background);
@@ -179,7 +193,7 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-        // 캐릭터
+        // Character
         speakerText.text = entry.speaker;
 
         if (!string.IsNullOrEmpty(entry.speaker))
@@ -198,7 +212,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // 대사 출력
+    // Typing Dialogue
     private IEnumerator TypeText(DialogueEntry entry)
     {
         isTyping = true;
@@ -209,7 +223,7 @@ public class DialogueManager : MonoBehaviour
             typingSound.Play();
         }
 
-        // 대사 한 글자씩 출력 (타이핑 효과)
+        // Typing effect
         foreach (char c in entry.text)
         {
             dialogueText.text += c;
@@ -223,25 +237,25 @@ public class DialogueManager : MonoBehaviour
             typingSound.Pause();
         }
 
-        // 다음 entry가 선택지일 경우
+        // it next entry has option route
         if (entry.choices != null || entry.choices.Length > 0)
         {
             ShowChoices(entry.choices);
         }
     }
 
-    // 선택지
+    // Option
     private void ShowChoices(Choice[] choices)
     {
-        DialogueEntry entry = dialogueData.Find(e => e.id == currentID); // 현재 대사
+        DialogueEntry entry = dialogueData.Find(e => e.id == currentID); // current dialogue
 
-        // 선택지 패널 및 버튼 활성화
+        // Active Option UI
         leftButtonObj.SetActive(true);
         rightButtonObj.SetActive(true);
         leftButtonObjT.SetActive(true);
         rightButtonObjT.SetActive(true);
 
-        // 왼쪽 버튼 설정
+        // Option Button 1
         leftButtonText.text = choices.Length > 0 ? choices[0].text : "";
         leftButton.onClick.RemoveAllListeners();
 
@@ -256,7 +270,7 @@ public class DialogueManager : MonoBehaviour
             });
         }
 
-        // 오른쪽 버튼 설정
+        // Option button 2
         rightButtonText.text = choices.Length > 1 ? choices[1].text : "";
         rightButton.onClick.RemoveAllListeners();
 
@@ -305,7 +319,7 @@ public class DialogueManager : MonoBehaviour
         rightButtonObjT.SetActive(false);
     }
 
-    // 계속 버튼
+    // Show next dialogue
     public void NextButton()
     {
         DialogueEntry entry = dialogueData.Find(e => e.id == currentID);
@@ -321,7 +335,7 @@ public class DialogueManager : MonoBehaviour
                 typingSound.Pause();
             }
 
-            // 선택지 있으면 바로 보여줌
+            // Option
             if (entry.choices != null && entry.choices.Length > 0)
             {
                 ShowChoices(entry.choices);
@@ -330,25 +344,11 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // 선택지가 없다면 nextID로 이동
+        // If no option, move to next entry
         if (entry.choices == null || entry.choices.Length == 0)
         {
             currentID = entry.nextID;
             ShowEntry(currentID);
-        }
-    }
-
-    public void SetResumeID(int id)
-    {
-        resumeID = id;
-    }
-
-    public void ResumeFromMinigame()
-    {
-        if (resumeID >= 0)
-        {
-            ShowEntry(resumeID);
-            resumeID = -1;
         }
     }
 }

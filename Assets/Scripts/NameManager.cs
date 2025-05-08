@@ -3,7 +3,10 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-// 이름 시스템 스크립트
+/// <summary>
+/// Name Scene
+/// </summary>
+
 public class NameManager : MonoBehaviour
 {
     public TMP_InputField nameInput;

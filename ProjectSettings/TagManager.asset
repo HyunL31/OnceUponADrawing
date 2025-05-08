@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Wall
+  - Exit
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Wall
   - Water
   - UI
   - 

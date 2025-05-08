@@ -1,6 +1,10 @@
 using System;
 using UnityEngine;
 
+/// <summary>
+/// Utility Class for JSON
+/// </summary>
+
 public static class JsonHelper
 {
     public static T[] FromJson<T>(string json)

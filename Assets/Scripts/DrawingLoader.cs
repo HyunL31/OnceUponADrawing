@@ -1,18 +1,23 @@
 using UnityEngine;
 
+/// <summary>
+/// Loading Player Character
+/// </summary>
+
 public static class DrawingLoader
 {
     public static Sprite LoadPlayerDrawing()
     {
         string path = Application.persistentDataPath + "/playerDrawing.png";
 
+        // Get character texture from path of file
         if (System.IO.File.Exists(path))
         {
+            // Get texture from path of file
             byte[] bytes = System.IO.File.ReadAllBytes(path);
             Texture2D originalTex = new Texture2D(2, 2);
-            originalTex.LoadImage(bytes);
+            originalTex.LoadImage(bytes);       // Convert to texture from PNG
 
-            // 캐릭터가 실제로 그려진 영역 계산
             Rect trimmedRect = GetBounds(originalTex, out int offsetX, out int offsetY);
 
             if (trimmedRect.width == 0 || trimmedRect.height == 0)
@@ -20,12 +25,12 @@ public static class DrawingLoader
                 return null;
             }
 
-            // 잘라낸 텍스처 만들기
+            // Create cut texture
             Texture2D trimmedTex = new Texture2D((int)trimmedRect.width, (int)trimmedRect.height);
             trimmedTex.SetPixels(originalTex.GetPixels(offsetX, offsetY, (int)trimmedRect.width, (int)trimmedRect.height));
             trimmedTex.Apply();
 
-            // pivot을 하단 중심으로 설정
+            // Setting pivot
             Vector2 pivot = new Vector2(0.5f, 0f);
 
             return Sprite.Create(trimmedTex, new Rect(0, 0, trimmedTex.width, trimmedTex.height), pivot);
@@ -36,12 +41,14 @@ public static class DrawingLoader
         }
     }
 
-    // 불투명한 영역의 경계 계산 함수
+    // Get bound for character
     private static Rect GetBounds(Texture2D tex, out int offsetX, out int offsetY)
     {
+        // Initialize
         int minX = tex.width, minY = tex.height;
         int maxX = 0, maxY = 0;
 
+        // Get entire of character pixels
         Color[] pixels = tex.GetPixels();
 
         for (int y = 0; y < tex.height; y++)
@@ -50,7 +57,7 @@ public static class DrawingLoader
             {
                 Color pixel = pixels[y * tex.width + x];
 
-                if (pixel.a > 0.01f) // 알파가 거의 0보다 크면 그려진 것으로 판단
+                if (pixel.a > 0.01f)        // if alpha is bigger than 0, there is a drawing pixel
                 {
                     if (x < minX) minX = x;
                     if (x > maxX) maxX = x;

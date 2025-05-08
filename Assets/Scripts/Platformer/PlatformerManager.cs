@@ -16,11 +16,16 @@ public class PlatformerManager : MonoBehaviour
 
     void UpdateHearts()
     {
+        if (hearts == null) return;
+
         int life = Mathf.Clamp(GameManager.Instance.life, 0, hearts.Length);
 
         for (int i = 0; i < hearts.Length; i++)
         {
-            hearts[i].enabled = i < life;
+            if (hearts[i] != null)
+            {
+                hearts[i].enabled = i < life;
+            }
         }
     }
 

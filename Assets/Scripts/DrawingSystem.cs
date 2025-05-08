@@ -2,7 +2,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// 드로잉 시스템 스크립트
+/// <summary>
+/// Drawing System Script
+/// </summary>
+
 public class DrawingSystem : MonoBehaviour
 {
     public RawImage targetImage;
@@ -29,7 +32,6 @@ public class DrawingSystem : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // 다음 씬에서도 살아남게
         }
         else
         {
@@ -40,7 +42,7 @@ public class DrawingSystem : MonoBehaviour
     void Start()
     {
         drawingTexture = new Texture2D(width, height, TextureFormat.RGBA32, false);
-        drawingTexture.filterMode = FilterMode.Point;
+        drawingTexture.filterMode = FilterMode.Point;       // Fixel Mode
         targetImage.texture = drawingTexture;
         ClearScreen();
     }
@@ -49,11 +51,11 @@ public class DrawingSystem : MonoBehaviour
     {
         Vector2 screenPos;
 
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0)       // for mobile
         {
             screenPos = Input.GetTouch(0).position;
         }
-        else if (Input.GetMouseButton(0))
+        else if (Input.GetMouseButton(0))       // for editor (debugging)
         {
             screenPos = Input.mousePosition;
         }
@@ -63,19 +65,23 @@ public class DrawingSystem : MonoBehaviour
             return;
         }
 
+        // Convert to screen position from UI position
         if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(targetImage.rectTransform, screenPos, null, out Vector2 localPoint))
         {
             return;
         }
 
+        // Calculate pixel size
         float px = targetImage.rectTransform.rect.width / width;
         float py = targetImage.rectTransform.rect.height / height;
 
+        // Convert to texture position from local position
         Vector2 pixelPos = new Vector2(
             (localPoint.x + targetImage.rectTransform.rect.width / 2) / px,
             (localPoint.y + targetImage.rectTransform.rect.height / 2) / py
         );
 
+        // Starting point
         if (!isDrawing)
         {
             previousPos = pixelPos;
@@ -130,6 +136,7 @@ public class DrawingSystem : MonoBehaviour
         drawingTexture.Apply();
     }
 
+    // Fixel block
     private void DrawPixelBlock(int centerX, int centerY, int size)
     {
         int half = size / 2;
@@ -149,7 +156,7 @@ public class DrawingSystem : MonoBehaviour
         }
     }
 
-    // 드로잉 초기화
+    // Initialize screen
     public void ClearScreen()
     {
         Color[] clear = new Color[width * height];
@@ -163,7 +170,7 @@ public class DrawingSystem : MonoBehaviour
         drawingTexture.Apply();
     }
 
-    // 브러쉬 사이즈 조절
+    // Manipulate brush size
     public void SetBrushSize(float value)
     {
         brushSize = Mathf.RoundToInt(value);
@@ -174,7 +181,7 @@ public class DrawingSystem : MonoBehaviour
         }
     }
 
-    // 조색
+    // Selecting color
     public void ColorChoice()
     {
         float r = redSlider.value;
@@ -189,7 +196,7 @@ public class DrawingSystem : MonoBehaviour
         }
     }
 
-    // 확인 버튼 누르면 플레이어 캐릭터 저장
+    // If player press the confirm button, save the character
     public void SaveDrawing()
     {
         byte[] bytes = drawingTexture.EncodeToPNG();

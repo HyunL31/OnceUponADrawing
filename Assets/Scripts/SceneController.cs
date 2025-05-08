@@ -1,7 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// 씬 전환 관리
+/// <summary>
+/// Scene Control
+/// </summary>
 
 public class SceneController : MonoBehaviour
 {
@@ -9,11 +11,11 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("Naming");
     }
+
     public void Part1()
     {
         SceneManager.LoadScene("VNPart");
     }
-
 
     public void DrawRedRiding()
     {
