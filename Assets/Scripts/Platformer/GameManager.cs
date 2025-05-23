@@ -1,26 +1,39 @@
 using System;
+using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.VFX;
+
+/// <summary>
+/// 플랫포머 게임 매니저
+/// </summary>
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public PlatformerManager platformerManager;
 
+    // Score
     private int score = 0;
+    public TextMeshProUGUI scoreText;
+
+    // Game state
     private bool isGameOver = false;
     public float fallLimit = -5f;
-
     public int life = 3;
     public float gameTime = 40f;
 
+    // UI
     public GameObject gameOver;
     public GameObject gameClear;
     public GameObject player;
 
+    // 오디오
+    public AudioSource clear;
+    public AudioSource over;
+    public AudioSource getApple;
 
-    // 매니저 중복 방지
+    // 싱글톤 인스턴스
     private void Awake()
     {
         if (Instance == null)
@@ -40,18 +53,17 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        // 타이머
         gameTime -= Time.deltaTime;
 
         if (gameTime <= 0)
-        { 
-            if (score >= 5) // 짝수 5개 이상 모으면
-            {
-                GameClear();
-            }
-            else
-            {
-                GameOver();
-            }
+        {
+            GameOver();
+        }
+
+        if (score >= 5) // 짝수 5개 이상 모으면
+        {
+            GameClear();
         }
 
         // 캐릭터가 떨어지면 게임 오버
@@ -72,6 +84,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // 점수 처리
     public void AddScore(int value)
     {
         if (IsGameOver())
@@ -80,10 +93,13 @@ public class GameManager : MonoBehaviour
         }
 
         score += value;
+        getApple.Play();
 
-        Debug.Log("Score: " + score);
+        string toString = score.ToString();
+        scoreText.text = "Score: " + toString;
     }
 
+    // 홀수 사과와 닿았을 때
     public void HitOddItem()
     {
         if (IsGameOver())
@@ -92,7 +108,6 @@ public class GameManager : MonoBehaviour
         }
 
         life--;
-        Debug.Log($"남은 하트: {life}");
 
         if (life <= 0)
         {
@@ -100,9 +115,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // 게임 오버
     public void GameOver()
     {
-        if (IsGameOver()) return;
+        if (IsGameOver())
+        {
+            return;
+        }
 
         isGameOver = true;
 
@@ -116,13 +135,16 @@ public class GameManager : MonoBehaviour
         foreach (var heart in platformerManager.hearts)
         {
             if (heart != null)
+            {
                 Destroy(heart.gameObject);
+            }
         }
 
+        over.Play();
         gameOver.SetActive(true);
     }
 
-
+    // 게임 클리어
     public void GameClear()
     {
         if (IsGameOver())
@@ -147,15 +169,10 @@ public class GameManager : MonoBehaviour
             }
         }
 
+        clear.Play();
         gameClear.SetActive(true);
 
-        // 게임 마무리 후 비주얼 노벨 파트로 이동
-        SceneManager.LoadScene("VNPart");
-    }
-
-    private T FindObjectsByType<T>()
-    {
-        throw new NotImplementedException();
+        StartCoroutine(DelayedSceneLoad());
     }
 
     public bool IsGameOver()
@@ -168,6 +185,15 @@ public class GameManager : MonoBehaviour
         return score;
     }
 
+    // 몇 초 후 VN 파트 로드
+    IEnumerator DelayedSceneLoad()
+    {
+        yield return new WaitForSeconds(2.5f);
+
+        SceneManager.LoadScene("VNPart");
+    }
+
+    // 자동으로 게임 재시작
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

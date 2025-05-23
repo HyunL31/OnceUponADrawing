@@ -1,21 +1,31 @@
 using UnityEngine;
 
-// 일정 속도로 왼쪽으로 움직이기
+/// <summary>
+/// 플랫폼 왼쪽으로 움직이기
+/// </summary>
+
 public class MoveLeft : MonoBehaviour
 {
+    public StartManager startManager;
+
     public float moveSpeed = 5f;
     private bool isMoving = true;
 
     void Update()
     {
-        if (!isMoving) return;
+        if (!isMoving)
+        {
+            return;
+        }
 
-        transform.position += Vector3.left * moveSpeed * Time.deltaTime;
+        if (startManager.isStart)
+        {
+            transform.position += Vector3.left * moveSpeed * Time.deltaTime;
+        }
     }
 
     public void Stop()
     {
         isMoving = false;
     }
-
 }

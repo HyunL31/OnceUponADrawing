@@ -1,6 +1,9 @@
 using UnityEngine;
 
-// 플랫포머 캐릭터 컨트롤 스크립트
+/// <summary>
+/// 플랫포머 캐릭터 컨트롤러
+/// </summary>
+
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
@@ -8,7 +11,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private int jumpCount = 0;
-    private int maxJumpCount = 3; // 점프 가능 횟수
+    private int maxJumpCount = 2; // 점프 가능 횟수
 
     void Start()
     {
@@ -35,7 +38,7 @@ public class PlayerController : MonoBehaviour
             return true;
         }
 
-        // PC: 마우스 왼쪽 클릭도 허용 (디버그용)
+        // PC: 마우스 왼쪽 클릭 (디버그용)
         if (Input.GetMouseButtonDown(0))
         {
             return true;
@@ -58,6 +61,12 @@ public class PlayerController : MonoBehaviour
         if (collision.collider.CompareTag("Ground"))
         {
             jumpCount = 0;
+        }
+
+        // 캐릭터가 왼쪽으로 밀려서 화면을 벗어나면
+        if (collision.collider.CompareTag("Wall"))
+        {
+            GameManager.Instance.GameOver();
         }
     }
 }

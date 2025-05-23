@@ -1,0 +1,1370 @@
+{
+  "entries": [
+    {
+      "id": 0,
+      "speaker": " ",
+      "text": "옛날 아주 먼 옛날에 빨간 망토를 너무나도 좋아하는 {playerName}(이)가 살고 있었습니다.",
+      "background": "home",
+      "music": "calm",
+      "nextID": 1
+    },
+    {
+      "id": 1,
+      "speaker": " ",
+      "text": "{playerName}(은)는 포근하고 따뜻한 빨간색 망토를 할머니께서 직접 만들어 주신 이후로, 마치 분신처럼 항상 두르고 다녔습니다.",
+      "background": "home",
+      "nextID": 2
+    },
+    {
+      "id": 2,
+      "speaker": " ",
+      "text": "마을 사람들은 빨간 망토를 두른 사랑스러운 {playerName}(을)를 보며, “빨간 망토”라고 불렀답니다.",
+      "background": "home",
+      "nextID": 3
+    },
+    {
+      "id": 3,
+      "speaker": " ",
+      "text": "어느 화창한 날, 빨간 망토의 엄마는 걱정스러운 표정으로 빨간 망토에게 예쁜 꽃무늬 바구니를 건네주며 조심스럽게 말했어요.",
+      "background": "home",
+      "nextID": 4
+    },
+    {
+      "id": 4,
+      "speaker": "엄마",
+      "text": "“사랑하는 빨간 망토야, 세상에... 할머니께서 갑자기 많이 편찮으시다는구나.”",
+      "background": "home",
+      "nextID": 5
+    },
+    {
+      "id": 5,
+      "speaker": "엄마",
+      "text": "“네가 이 바구니에 싱싱한 사과를 예쁘게 담아 할머니께 가져다드리렴.”",
+      "background": "home",
+      "nextID": 6
+    },
+    {
+      "id": 6,
+      "speaker": "엄마",
+      "text": "“할머니 댁으로 가는 숲길을 따라 쭉 걷다 보면, 탐스러운 사과나무들이 모여 있는 작은 과수원을 찾을 수 있을 거야.”",
+      "background": "home",
+      "nextID": 7
+    },
+    {
+      "id": 7,
+      "speaker": "엄마",
+      "text": "“무엇보다 중요한 건, 할머니께 드릴 맛있는 사과는 꼭 빨갛게 잘 익은 '짝수' 사과만을 골라서 담아야 한다는 거란다.”",
+      "background": "home",
+      "nextID": 8
+    },
+    {
+      "id": 8,
+      "speaker": "엄마",
+      "text": "“혹시라도 덜 익었거나 못생긴 '홀수' 사과는 무시무시한 독이 들어있을 수 있으니, 절대로 함부로 만지거나 먹으면 안 돼! 알겠지?”",
+      "background": "home",
+      "nextID": 9
+    },
+    {
+      "id": 9,
+      "speaker": "엄마",
+      "text": "“그리고 숲속에는 아주 교활하고 무서운 늑대가 살고 있으니, 무슨 일이 있어도 낯선 사람과는 절대로 이야기하거나 속지 않도록, 꼭! 조심해야 한다.”",
+      "background": "home",
+      "nextID": 10
+    },
+    {
+      "id": 10,
+      "speaker": "엄마",
+      "text": "“숲길을 따라 곧장 쭉 가고, 절대로 길을 벗어나거나 엉뚱한 곳을 기웃거리지 말고, 낯선 사람이 말을 걸어도 못 들은 척 지나쳐야 해.”",
+      "background": "home",
+      "nextID": 11
+    },
+    {
+      "id": 11,
+      "speaker": " ",
+      "text": "사랑하는 엄마의 말씀을 들은 빨간 망토는,",
+      "background": "home",
+      "nextID": 12
+    },
+    {
+      "id": 12,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 1001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 1003
+        },
+        {
+          "personality": "Curious",
+          "nextID": 1005
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "speaker": "{playerName}",
+      "text": "“네, 엄마. 걱정 마세요. 할머니께서 많이 아프시다니, 제가 얼른 다녀올게요.”",
+      "background": "home",
+      "nextID": 1002
+    },
+    {
+      "id": 1002,
+      "speaker": "{playerName}",
+      "text": "“할머니께 힘내시라고 꼭 맛있는 사과를 모아서 갈게요.”",
+      "background": "home",
+      "nextID": 13
+    },
+    {
+      "id": 1003,
+      "speaker": "{playerName}",
+      "text": "“네, 엄마! 늑대 같은 건 하나도 안 무서워요!”",
+      "background": "home",
+      "nextID": 1004
+    },
+    {
+      "id": 1004,
+      "speaker": "{playerName}",
+      "text": "“제가 할머니께 드릴 맛있는 사과를 씩씩하게 가져다 드릴게요. 늑대가 나타나면 제가 혼내줄 거예요!”",
+      "background": "home",
+      "nextID": 13
+    },
+    {
+      "id": 1005,
+      "speaker": "{playerName}",
+      "text": "“네, 엄마! 숲길에는 뭐가 있을까요? 늑대는 정말 무섭게 생겼을까요?”",
+      "background": "home",
+      "nextID": 1006
+    },
+    {
+      "id": 1006,
+      "speaker": "{playerName}",
+      "text": "“엄마 말씀 잘 듣고 조심해서 다녀올게요! 할머니께 맛있는 사과도 드리고, 숲 구경도 하고 와야지!”",
+      "background": "home",
+      "nextID": 13
+    },
+    {
+      "id": 13,
+      "speaker": " ",
+      "text": "...라고 대답하며, 빨간 망토는 길을 나섰습니다.",
+      "background": "forest",
+      "nextID": 14
+    },
+    {
+      "id": 14,
+      "speaker": " ",
+      "text": "할머니의 따뜻한 보금자리는, 푸른 나무들이 울창하게 우거진 숲속 깊숙한 곳에 자리 잡고 있었습니다.",
+      "background": "forest",
+      "nextID": 15
+    },
+    {
+      "id": 15,
+      "speaker": " ",
+      "text": "빨간 망토는 엄마의 신신당부대로, 맛있는 '짝수' 사과를 바구니 가득 담기 위해 곧장 숲길을 따라 걸어갔습니다.",
+      "background": "forest",
+      "nextID": 16
+    },
+    {
+      "id": 16,
+      "speaker": " ",
+      "text": "숲길을 따라 걷다 보니, 따스한 햇살이 초록빛 나뭇잎 사이로 부드럽게 쏟아지고,",
+      "background": "forest",
+      "nextID": 17
+    },
+    {
+      "id": 17,
+      "speaker": " ",
+      "text": "예쁜 새들은 즐겁게 지저귀고, 알록달록한 나비들은 꽃들 사이를 날아가며 아름다운 풍경을 만들어 냈습니다.",
+      "background": "forest",
+      "sfx": "bird",
+      "nextID": 18
+    },
+    {
+      "id": 18,
+      "speaker": " ",
+      "text": "빨간 망토는 콧노래를 흥얼거리며, 가벼운 발걸음으로 숲길을 걸어갔습니다.",
+      "background": "forest",
+      "sfx": "foot",
+      "nextID": 19
+    },
+    {
+      "id": 19,
+      "speaker": " ",
+      "text": "얼마나 걸었을까요? 드디어 빨간 망토는 탐스러운 빨간 사과나무들이 가득한 작은 과수원에 도착했습니다.",
+      "background": "forest",
+      "nextID": 20
+    },
+    {
+      "id": 20,
+      "speaker": "{playerName}",
+      "text": "“와! 엄마가 말씀하신 곳이 바로 여기구나!”",
+      "background": "forest",
+      "nextID": 21
+    },
+    {
+      "id": 21,
+      "speaker": " ",
+      "text": "빨간 망토는 엄마가 건네주신 예쁜 바구니에 빨갛고 탐스러운 '짝수' 사과들을 조심스럽게 담기 시작했습니다.",
+      "background": "forest",
+      "nextID": 22
+    },
+    {
+      "id": 22,
+      "command": "start_minigame1",
+      "game": "platformer",
+      "nextID": 23
+    },
+    {
+      "id": 23,
+      "speaker": " ",
+      "text": "열심히 '짝수' 사과만을 골라 담은 덕분에, 빨간 망토는 할머니께 드릴 맛있는 사과를 바구니 가득 채울 수 있었습니다.",
+      "background": "forest",
+      "nextID": 24
+    },
+    {
+      "id": 24,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 2001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 2002
+        },
+        {
+          "personality": "Curious",
+          "nextID": 2004
+        }
+      ]
+    },
+    {
+      "id": 2001,
+      "speaker": "{playerName}",
+      "text": "“이렇게 맛있어 보이는 사과라니, 분명 할머니도 좋아하실거야!”",
+      "background": "forest",
+      "nextID": 25
+    },
+    {
+      "id": 2002,
+      "speaker": "{playerName}",
+      "text": "“이렇게 맛있어 보이는 사과라니, 이 정도 사과라면 늑대 녀석도 탐내겠지?”",
+      "background": "forest",
+      "nextID": 2003
+    },
+    {
+      "id": 2003,
+      "speaker": "{playerName}",
+      "text": "“하지만 이건 할머니께 드릴 소중한 선물이니까 꼭 조심히 갖다드려야 돼!”",
+      "background": "forest",
+      "nextID": 25
+    },
+    {
+      "id": 2004,
+      "speaker": "{playerName}",
+      "text": "“이렇게 맛있어 보이는 사과라니, 맛이 궁금하다! 과연 초록색 사과의 맛은 어떨까?”",
+      "background": "forest",
+      "nextID": 25
+    },
+    {
+      "id": 25,
+      "speaker": " ",
+      "text": "바구니를 가득 채운 빨간 망토가 다시 숲길을 따라 걷고 있을 때였습니다.",
+      "background": "forest",
+      "nextID": 26
+    },
+    {
+      "id": 26,
+      "speaker": " ",
+      "text": "“길가 덤불 속에서 반짝이는 두 개의 날카로운 눈빛이 빨간 망토의 눈에 들어왔습니다.”",
+      "background": "forest",
+      "music": "down",
+      "nextID": 27
+    },
+    {
+      "id": 27,
+      "speaker": " ",
+      "text": "그 섬뜩한 눈빛의 주인공은 바로 숲속에서 가장 교활하고 사나운 늑대였습니다.",
+      "background": "forest",
+      "nextID": 28
+    },
+    {
+      "id": 28,
+      "speaker": " ",
+      "text": "빨간 모자가 맛있는 사과를 들고 가자 그 뒤를 몰래 따라온 것이었어요.",
+      "background": "forest",
+      "nextID": 29
+    },
+    {
+      "id": 29,
+      "speaker": " ",
+      "text": "늑대는 덤불 속에 조용히 숨어 있다가, 빨간 망토가 가까이 다가오자 슬금슬금 걸어 나오며 음흉한 미소를 지었습니다.",
+      "background": "forest",
+      "nextID": 30
+    },
+    {
+      "id": 30,
+      "speaker": "늑대",
+      "text": "“어허, 이런! 웬 꼬마가 이렇게 깊은 숲속에서 혼자 길을 가고 있나? 혹시 어디 가는 길이니?”",
+      "background": "forest",
+      "nextID": 31
+    },
+    {
+      "id": 31,
+      "speaker": " ",
+      "text": "늑대는 부드럽고 친절한 목소리로 빨간 망토에게 말을 걸었습니다.",
+      "background": "forest",
+      "nextID": 32
+    },
+    {
+      "id": 32,
+      "text": "",
+      "choices": [
+        {
+          "text": "대답한다",
+          "nextID": 33
+        },
+        {
+          "text": "무시한다",
+          "nextID": 44
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 3001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 3002
+        },
+        {
+          "personality": "Curious",
+          "nextID": 3003
+        }
+      ]
+    },
+    {
+      "id": 3001,
+      "speaker": "{playerName}",
+      "text": "“안녕하세요, 늑대 아저씨. 저는 편찮으신 할머니 댁에 가는 길이에요. 할머니께 드릴 맛있는 사과를 가져가고 있어요.”",
+      "background": "forest",
+      "nextID": 34
+    },
+    {
+      "id": 3002,
+      "speaker": "{playerName}",
+      "text": "“안녕하세요! 저는 할머니 댁에 가는 길이에요. 할머니가 기다리셔서 빨리 가야해요!”",
+      "background": "forest",
+      "nextID": 34
+    },
+    {
+      "id": 3003,
+      "speaker": "{playerName}",
+      "text": "“우와, 늑대 아저씨다! 이렇게 가까이서 보는 건 처음이에요! 혹시 숲속에 재미있는 거 없어요?”",
+      "background": "forest",
+      "nextID": 3004
+    },
+    {
+      "id": 3004,
+      "speaker": "{playerName}",
+      "text": "“저는 할머니 댁에 사과 가져다 드려야 하는데... 잠깐 구경해도 될까요?”",
+      "background": "forest",
+      "nextID": 34
+    },
+    {
+      "id": 34,
+      "speaker": "늑대",
+      "text": "“아, 그렇구나! 아픈 할머니께 맛있는 걸 가져다드리려고 하는 착한 아이로구나?”",
+      "background": "forest",
+      "nextID": 35
+    },
+    {
+      "id": 35,
+      "speaker": "늑대",
+      "text": "“그런데, 할머니 댁은 어디에 있니? 많이 멀다면 데려다주마.”",
+      "background": "forest",
+      "nextID": 36
+    },
+    {
+      "id": 36,
+      "speaker": "{playerName}",
+      "text": "“할머니 댁은 저 숲길을 따라 쭉 가면 나오는 작은 오두막이에요.”",
+      "background": "forest",
+      "nextID": 37
+    },
+    {
+      "id": 37,
+      "speaker": "{playerName}",
+      "text": "“예쁜 꽃들이 활짝 핀 작은 정원이 있는 집이요!”",
+      "background": "forest",
+      "nextID": 38
+    },
+    {
+      "id": 38,
+      "speaker": " ",
+      "text": "빨간 망토의 순진한 대답을 들은 늑대는 속으로 쾌재를 불렀습니다.",
+      "background": "forest",
+      "nextID": 39
+    },
+    {
+      "id": 39,
+      "speaker": "늑대",
+      "text": "‘흐흐흐, 저 작은 오두막이로군! 잽싸게 먼저 가서 할머니를...!’",
+      "background": "forest",
+      "nextID": 40
+    },
+    {
+      "id": 40,
+      "speaker": "늑대",
+      "text": "‘그리고 빨간 망토 너까지 한입에 꿀꺽 삼켜주마!’",
+      "background": "forest",
+      "nextID": 41
+    },
+    {
+      "id": 41,
+      "speaker": " ",
+      "text": "늑대는 마음 속으로 굉장히 무시무시한 생각을 했어요.",
+      "background": "forest",
+      "nextID": 42
+    },
+    {
+      "id": 42,
+      "speaker": " ",
+      "text": "하지만 늑대는 마음처럼 너무 서둘러 뛰어가면 빨간 망토가 수상하게 여길까 봐,",
+      "background": "forest",
+      "nextID": 43
+    },
+    {
+      "id": 43,
+      "speaker": " ",
+      "text": "빨간 망토를 숲 속에 더 오래 붙잡아 둘 꾀를 생각해 냈습니다.",
+      "background": "forest",
+      "nextID": 46
+    },
+    {
+      "id": 44,
+      "speaker": " ",
+      "text": "빨간 망토는 늑대의 부드러운 말에 잠시 망설였지만, 엄마의 걱정스러운 얼굴이 떠올랐습니다.",
+      "background": "flower",
+      "nextID": 45
+    },
+    {
+      "id": 45,
+      "speaker": " ",
+      "text": "빨간 망토는 늑대의 말에 대답하지 않고, 앞만 보고 걷기 시작했습니다.",
+      "background": "flower",
+      "nextID": 46
+    },
+    {
+      "id": 46,
+      "speaker": "늑대",
+      "text": "“아, 꼬마야! 그런데 저기 좀 보렴! 숲 속에 이렇게나 예쁘고 신기한 꽃들이 활짝 피어 있네?”",
+      "background": "flower",
+      "nextID": 47
+    },
+    {
+      "id": 47,
+      "speaker": " ",
+      "text": "늑대의 말처럼 들판에는 아름다운 꽃들이 정말 많았어요.",
+      "background": "flower",
+      "music": "calm",
+      "nextID": 48
+    },
+    {
+      "id": 48,
+      "speaker": " ",
+      "text": "그 꽃들은 다른 꽃들과는 살짝 다르게 생긴 부분이 있었어요.",
+      "background": "flower",
+      "nextID": 49
+    },
+    {
+      "id": 49,
+      "speaker": "늑대",
+      "text": "“저기 피어있는 꽃들은 평범한 꽃들과 다르단다.”",
+      "background": "flower",
+      "nextID": 50
+    },
+    {
+      "id": 50,
+      "speaker": "늑대",
+      "text": "“이 꽃들은 '수학수학' 꽃이야. 이 꽃을 얻기 위해서는 이름처럼 수학 문제를 풀어야 해.”",
+      "background": "flower",
+      "nextID": 51
+    },
+    {
+      "id": 51,
+      "speaker": "늑대",
+      "text": "“저기 보이는 수학 문제를 풀어서 딱! 그 만큼만 꽃을 꺾어야 한단다.”",
+      "background": "flower",
+      "nextID": 52
+    },
+    {
+      "id": 52,
+      "speaker": "늑대",
+      "text": "“수학 문제를 풀 수 있다면 꽃을 꺾더라도 아주 오랫동안 싱그럽게 살아있을 거야.”",
+      "background": "flower",
+      "nextID": 53
+    },
+    {
+      "id": 53,
+      "speaker": "늑대",
+      "text": "“하지만 문제를 잘못 푼다면 꽃은 바로 시들어 버린단다.”",
+      "background": "flower",
+      "nextID": 54
+    },
+    {
+      "id": 54,
+      "speaker": "늑대",
+      "text": "“할머니께 가는 길에 이렇게 신기한 꽃들을 몇 송이 꺾어다 드리면 훨씬 더 기뻐하시지 않겠니?”",
+      "background": "flower",
+      "nextID": 55
+    },
+    {
+      "id": 55,
+      "text": "",
+      "choices": [
+        {
+          "text": "동의한다",
+          "nextID": 56
+        },
+        {
+          "text": "거절한다",
+          "nextID": 59
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 4001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 4003
+        },
+        {
+          "personality": "Curious",
+          "nextID": 4005
+        }
+      ]
+    },
+    {
+      "id": 4001,
+      "speaker": "{playerName}",
+      "text": "“와, 정말 신기한 꽃들이네요! 할머니께서 이 꽃들을 보시면 정말 기뻐하실 거예요.”",
+      "background": "flower",
+      "nextID": 4002
+    },
+    {
+      "id": 4002,
+      "speaker": "{playerName}",
+      "text": "“몇 송이 예쁘게 꺾어서 가져다 드려야겠어요.”",
+      "background": "flower",
+      "nextID": 57
+    },
+    {
+      "id": 4003,
+      "speaker": "{playerName}",
+      "text": "“분명 할머니가 좋아하실 만큼 신기한 꽃이네요! 걱정마세요!”",
+      "background": "flower",
+      "nextID": 4004
+    },
+    {
+      "id": 4004,
+      "speaker": "{playerName}",
+      "text": "“수학 문제를 다 풀 수 있을 거에요!”",
+      "background": "flower",
+      "nextID": 57
+    },
+    {
+      "id": 4005,
+      "speaker": "{playerName}",
+      "text": "“우와, 신기하게 생긴 꽃들이 정말 많다! 늑대 아저씨, 이 꽃 이름이 뭐예요?”",
+      "background": "flower",
+      "nextID": 4006
+    },
+    {
+      "id": 4006,
+      "speaker": "{playerName}",
+      "text": "“할머니께 이런 특별한 꽃들을 가져다 드리면 정말 좋아하시겠죠? 몇 송이 꺾어가야겠다!”",
+      "background": "flower",
+      "nextID": 57
+    },
+    {
+      "id": 57,
+      "speaker": " ",
+      "text": "빨간 망토는 그만 늑대의 꼬임에 넘어가, 예쁜 꽃들을 꺾기 위해 숲길 옆으로 발걸음을 옮겼습니다.",
+      "background": "flower",
+      "nextID": 58
+    },
+    {
+      "id": 58,
+      "command": "start_minigame2",
+      "game": "flower",
+      "nextID": 71
+    },
+    {
+      "id": 71,
+      "speaker": " ",
+      "text": "문제를 잘 풀어 꽃이 싱그럽게 피어났고, 빨간 망토는 기뻐하며 바구니에 꽃을 담았어요.",
+      "background": "door",
+      "nextID": 72
+    },
+    {
+      "id": 72,
+      "speaker": " ",
+      "text": "한편 빨간 망토가 꽃을 꺾는 동안, 늑대는 재빠르게 할머니의 오두막으로 달려갔습니다.",
+      "background": "door",
+      "nextID": 73
+    },
+    {
+      "id":73,
+      "speaker": " ",
+      "text": "늑대가 숨을 몰아쉬며 할머니 댁에 도착한 그 때,",
+      "background": "door",
+      "nextID": 74
+    },
+    {
+      "id": 74,
+      "speaker": " ",
+      "text": "예쁜 꽃들을 바구니에 담은 빨간 망토는 그제야 할머니 댁으로 서둘러 발걸음을 옮겼습니다.",
+      "background": "flower",
+      "nextID": 75
+    },
+    {
+      "id": 59,
+      "speaker": " ",
+      "text": "빨간 망토는 다시 한 번 엄마의 말씀을 되새기며 거절했습니다.",
+      "background": "flower",
+      "nextID": 60
+    },
+    {
+      "id": 60,
+      "speaker": "늑대",
+      "text": "“에이, 뭘 그렇게 딱딱하게 굴어? 잠깐 꽃 구경하는 건 괜찮아! 정말 예쁜 꽃들이 많단다.”",
+      "background": "flower",
+      "nextID": 61
+    },
+    {
+      "id": 61,
+      "speaker": "늑대",
+      "text": "“할머니도 예쁜 꽃을 보시면 분명 아주 좋아하실 거야!”",
+      "background": "flower",
+      "nextID": 62
+    },
+    {
+      "id": 62,
+      "text": "",
+      "choices": [
+        {
+          "text": "다시 한번 거절한다",
+          "nextID": 63
+        },
+        {
+          "text": "잠깐 고민한다",
+          "nextID": 6003
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 5001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 5002
+        },
+        {
+          "personality": "Curious",
+          "nextID": 5003
+        }
+      ]
+    },
+    {
+      "id": 5001,
+      "speaker": "{playerName}",
+      "text": "“음... 늑대 아저씨, 말씀은 고맙지만 엄마가 숲길에서 한눈 팔면 안 된다고 신신당부하셨어요.”",
+      "background": "flower",
+      "nextID": 64
+    },
+    {
+      "id": 5002,
+      "speaker": "{playerName}",
+      "text": "“아니에요, 늑대 아저씨. 저는 할머니께 빨리 가봐야 해요.”",
+      "background": "flower",
+      "nextID": 64
+    },
+    {
+      "id": 5003,
+      "speaker": "{playerName}",
+      "text": "“정말 궁금하긴 한데... 엄마가 한눈 팔지 말라고 하셨어요.”",
+      "background": "flower",
+      "nextID": 64
+    },
+    {
+      "id": 64,
+      "speaker": " ",
+      "text": "단호한 빨간 망토의 모습에 늑대는 속으로 짜증이 났지만, 겉으로는 친절한 척 다시 말을 걸었습니다.",
+      "background": "flower",
+      "nextID": 65
+    },
+    {
+      "id": 65,
+      "speaker": "늑대",
+      "text": "“그래? 사실 나는 너희 엄마와 굉장히 친하단다. 그러니 너무 걱정하지 않아도 돼.”",
+      "background": "flower",
+      "nextID": 66
+    },
+    {
+      "id": 66,
+      "speaker": "늑대",
+      "text": "“혹시 내가 나쁜 사람처럼 보이니? 그렇다면 정말 서운하구나...”",
+      "background": "flower",
+      "nextID": 67
+    },
+    {
+      "id": 67,
+      "speaker": " ",
+      "text": "빨간 망토는 혼란스러웠습니다.",
+      "background": "flower",
+      "nextID": 68
+    },
+    {
+      "id": 68,
+      "speaker": " ",
+      "text": "숲속의 늑대는 엄마의 말씀과 달리 무섭게 생기지도 않고 정말 친절했거든요.",
+      "background": "flower",
+      "nextID": 69
+    },
+    {
+      "id": 69,
+      "speaker": " ",
+      "text": "잠깐 고민하던 빨간 망토는 생각했습니다.",
+      "background": "flower",
+      "nextID": 70
+    },
+    {
+      "id": 70,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 6001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 6002
+        },
+        {
+          "personality": "Curious",
+          "nextID": 6003
+        }
+      ]
+    },
+    {
+      "id": 6001,
+      "speaker": "{playerName}",
+      "text": "“아니에요! 늑대 아저씨는 정말 친절해보여요. 그럼 잠시만 구경할게요...”",
+      "background": "flower",
+      "nextID": 64
+    },
+    {
+      "id": 6002,
+      "speaker": "{playerName}",
+      "text": "“아니에요! 만약 나쁜 사람이었다면 제가 혼내줬을 거에요.”",
+      "background": "flower",
+      "nextID": 300
+    },
+    {
+      "id": 6003,
+      "speaker": "{playerName}",
+      "text": "“그럼 정말 잠깐만 보고 가는 거예요! 엄마한테는 비밀로 해야지...”",
+      "background": "flower",
+      "nextID": 300
+    },
+    {
+      "id": 300,
+      "speaker": " ",
+      "text": "결국 빨간 망토는 친절해 보이는 늑대를 믿고 할머니께 드릴 꽃을 모으기 시작했습니다.",
+      "background": "flower",
+      "sfx": "door",
+      "nextID": 58
+    },
+    {
+      "id": 75,
+      "speaker": " ",
+      "text": "늑대는 할머니의 집 문 앞에 도착하자마자, 다급하게 문을 두드리며 빨간 망토의 목소리를 흉내 내어 말했습니다.",
+      "background": "door",
+      "sfx": "door",
+      "nextID": 76
+    },
+    {
+      "id": 76,
+      "speaker": "늑대",
+      "text": "“할머니, 저 왔어요! 빨간 망토예요!”",
+      "background": "door",
+      "nextID": 77
+    },
+    {
+      "id": 77,
+      "speaker": "할머니",
+      "text": "“어, 어서 들어오렴, 내 사랑하는 아가야.",
+      "background": "door",
+      "nextID": 78
+    },
+    {
+      "id": 78,
+      "speaker": "할머니",
+      "text": "“그런데 목소리가 왜 이렇게 잠겼니? 감기에 걸렸니?”",
+      "background": "door",
+      "nextID": 79
+    },
+    {
+      "id": 79,
+      "speaker": "늑대",
+      "text": "“네, 할머니... 숲길을 뛰어오느라 숨이 차서 그래요. 문 좀 열어주세요.”",
+      "background": "door",
+      "nextID": 80
+    },
+    {
+      "id": 80,
+      "speaker": " ",
+      "text": "할머니는 늑대의 그럴듯한 목소리에 잠시 의심했지만, 손녀를 걱정하는 마음에 문을 열어주었습니다.",
+      "background": "grandma",
+      "nextID": 81
+    },
+    {
+      "id": 81,
+      "speaker": "할머니",
+      "text": "많이 힘들었나 보구나. 얼른 들어오렴.",
+      "background": "grandma",
+      "nextID": 82
+    },
+    {
+      "id": 82,
+      "speaker": " ",
+      "text": "하지만 문이 열리는 순간, 늑대는 날카로운 이빨을 드러내며 할머니에게 달려들어 순식간에 꿀꺽 삼켜 버렸습니다!",
+      "background": "grandma",
+      "music": "suspense",
+      "nextID": 83
+    },
+    {
+      "id": 83,
+      "speaker": "늑대",
+      "text": "‘흐흐흐, 역시 쉽군! 이제 할머니 흉내를 내고 있다가 빨간 망토까지 잡아먹어야지!’",
+      "background": "grandma",
+      "nextID": 84
+    },
+    {
+      "id": 84,
+      "speaker": " ",
+      "text": "배를 불룩하게 채운 늑대는 할머니의 옷을 잽싸게 주워 입고, 할머니의 침대에 누워 이불을 덮은 채 빨간 망토가 오기만을 기다렸습니다.",
+      "background": "grandma",
+      "nextID": 85
+    },
+    {
+      "id": 85,
+      "speaker": "늑대",
+      "text": "“흐흐, 지금쯤 빨간 망토는 아무것도 모르고 달려오고 있겠지?”",
+      "background": "grandma",
+      "nextID": 86
+    },
+    {
+      "id": 86,
+      "speaker": " ",
+      "text": "얼마 지나지 않아, 빨간 망토가 예쁜 꽃바구니를 들고 할머니의 오두막에 도착했습니다.",
+      "background": "door",
+      "nextID": 87
+    },
+    {
+      "id": 87,
+      "speaker": "{playerName}",
+      "text": "“할머니, 저 왔어요! 빨간 망토예요!”",
+      "background": "door",
+      "sfx": "door",
+      "nextID": 88
+    },
+    {
+      "id": 88,
+      "speaker": "늑대",
+      "text": "“어서 들어오렴, 내 귀여운 아가야.”",
+      "background": "door",
+      "nextID": 89
+    },
+    {
+      "id": 89,
+      "speaker": "늑대",
+      "text": "“너를 위해 아주 맛있는 과자를 준비해두었던다.”",
+      "background": "door",
+      "nextID": 90
+    },
+    {
+      "id": 90,
+      "speaker": " ",
+      "text": "빨간 망토는 할머니의 목소리가 평소와는 너무나도 다르다는 것을 알아차렸습니다.",
+      "background": "door",
+      "nextID": 91
+    },
+    {
+      "id": 91,
+      "speaker": "{playerName}",
+      "text": "“할머니? 목소리가 조금 이상하세요. 몸이 많이 안 좋으신 거에요?”",
+      "background": "door",
+      "nextID": 92
+    },
+    {
+      "id": 92,
+      "speaker": "늑대",
+      "text": "“그렇단다. 그러니 어서 들어와서 이 할머니를 좀 도와주렴.”",
+      "background": "door",
+      "nextID": 93
+    },
+    {
+      "id": 93,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 7001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 7002
+        },
+        {
+          "personality": "Curious",
+          "nextID": 7003
+        }
+      ]
+    },
+    {
+      "id": 7001,
+      "speaker": "{playerName}",
+      "text": "“할머니께 몸이 많이 안 좋으신 것 같아. 얼른 도와드리자.”",
+      "background": "door",
+      "nextID": 94
+    },
+    {
+      "id": 7002,
+      "speaker": "{playerName}",
+      "text": "“할머니께 몸이 많이 안 좋으신 것 같아. 무슨 일이 생겨도 할머니 댁이니 괜찮을거야.”",
+      "background": "door",
+      "nextID": 94
+    },
+    {
+      "id": 7003,
+      "speaker": "{playerName}",
+      "text": "“할머니께 무슨 일이라도 생긴 걸까? 우선 들어가보자.”",
+      "background": "door",
+      "nextID": 94
+    },
+    {
+      "id": 94,
+      "speaker": " ",
+      "text": "빨간 망토는 방으로 들어섰지만, 어딘지 모르게 으스스하고 이상한 기분이 들었습니다.",
+      "background": "grandma",
+      "nextID": 95
+    },
+    {
+      "id": 95,
+      "speaker": " ",
+      "text": "어둑컴컴한 방 안에서, 침대에 누워 있는 할머니의 모습은 평소와는 너무나 달랐습니다.",
+      "background": "grandma",
+      "nextID": 96
+    },
+    {
+      "id": 96,
+      "speaker": "{playerName}",
+      "text": "“할머니? 괜찮으세요?”",
+      "background": "door",
+      "nextID": 97
+    },
+    {
+      "id": 97,
+      "speaker": " ",
+      "text": "자꾸만 이상한 예감을 느낀 빨간 망토는 생각했어요.",
+      "background": "grandma",
+      "nextID": 98
+    },
+    {
+      "id": 98,
+      "speaker": "{playerName}",
+      "text": "“할머니께 무슨 일이 생겼다면 내가 구해드려야 해. 무슨 일이 생기신 걸까?”",
+      "background": "door",
+      "nextID": 99
+    },
+    {
+      "id": 99,
+      "command": "start_minigame3",
+      "game": "wally",
+      "nextID": 101
+    },
+    {
+      "id": 101,
+      "speaker": "{playerName}",
+      "text": "“할머니, 오늘따라 귀가 왜 이렇게 크세요?”",
+      "background": "grandma",
+      "nextID": 102
+    },
+    {
+      "id": 102,
+      "speaker": "늑대",
+      "text": "“네가 오는 소리를 더 잘 들으려고 그러지.”",
+      "background": "grandma",
+      "nextID": 103
+    },
+    {
+      "id": 103,
+      "speaker": "{playerName}",
+      "text": "“그런데... 할머니, 손은 또 왜 이렇게 크시고요?”",
+      "background": "grandma",
+      "nextID": 104
+    },
+    {
+      "id": 104,
+      "speaker": "늑대",
+      "text": "“네 귀여운 몸을 더 꽉 안아주려고 그러지.”",
+      "background": "grandma",
+      "nextID": 105
+    },
+    {
+      "id": 105,
+      "speaker": "{playerName}",
+      "text": "“하지만... 할머니, 입은 왜 그렇게나 크세요?”",
+      "background": "grandma",
+      "nextID": 106
+    },
+    {
+      "id": 106,
+      "speaker": "늑대",
+      "text": "“그건...”",
+      "background": "grandma",
+      "nextID": 107
+    },
+    {
+      "id": 107,
+      "speaker": "늑대",
+      "text": "“너를 한입에 꿀꺽 삼켜 버리려고 그러지!! 으하하하!”",
+      "background": "grandma",
+      "nextID": 108
+    },
+    {
+      "id": 108,
+      "speaker": " ",
+      "text": "늑대는 무시무시한 본색을 드러내며 침대에서 벌떡 일어나, 날카로운 이빨을 드러내고 빨간 망토에게 달려들었습니다!",
+      "background": "grandma",
+      "nextID": 109
+    },
+    {
+      "id": 109,
+      "speaker": " ",
+      "text": "빨간 망토는 너무나도 놀라고 무서워 아무것도 할 수 없었습니다.",
+      "background": "grandma",
+      "nextID": 110
+    },
+    {
+      "id": 110,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 8001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 8002
+        },
+        {
+          "personality": "Curious",
+          "nextID": 8003
+        }
+      ]
+    },
+    {
+      "id": 8001,
+      "speaker": "{playerName}",
+      "text": "“어떡하면 좋아! 늑대를 무시하고 더 빨리 왔어야 하는데!”",
+      "background": "door",
+      "nextID": 111
+    },
+    {
+      "id": 8002,
+      "speaker": "{playerName}",
+      "text": "“내가 싸워서 늑대와 이길 수 있을까? 무서워!”",
+      "background": "door",
+      "nextID": 111
+    },
+    {
+      "id": 8003,
+      "speaker": "{playerName}",
+      "text": "“숲에 재미있는 것들이 많아 너무 늦게 와버렸어! 어떡하지?”",
+      "background": "door",
+      "nextID": 111
+    },
+    {
+      "id": 111,
+      "speaker": " ",
+      "text": "그 순간, 빨간 망토는 엄마의 말씀대로 모아온 사과들이 번뜩 떠올랐습니다.",
+      "background": "grandma",
+      "nextID": 112
+    },
+    {
+      "id": 112,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 9001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 9002
+        },
+        {
+          "personality": "Curious",
+          "nextID": 9003
+        }
+      ]
+    },
+    {
+      "id": 9001,
+      "speaker": "{playerName}",
+      "text": "“이 사과로 할머니를 구해드릴 수 있을거야!”",
+      "background": "door",
+      "nextID": 113
+    },
+    {
+      "id": 9002,
+      "speaker": "{playerName}",
+      "text": "“이 사과로 늑대를 물리칠 수 있어!”",
+      "background": "door",
+      "nextID": 113
+    },
+    {
+      "id": 9003,
+      "speaker": "{playerName}",
+      "text": "“이 사과로 무언가를 할 수 있지 않을까?”",
+      "background": "door",
+      "nextID": 113
+    },
+    {
+      "id": 113,
+      "speaker": " ",
+      "text": "들고 있던 바구니에서 사과를 꺼내는 빨간 망토를 보며 늑대가 말했습니다.",
+      "background": "grandma",
+      "nextID": 114
+    },
+    {
+      "id": 114,
+      "speaker": "늑대",
+      "text": "“그 '짝수' 사과로 과연 이 늑대님을 이길 수 있을까?",
+      "background": "door",
+      "nextID": 115
+    },
+    {
+      "id": 115,
+      "speaker": "늑대",
+      "text": "“나한테는 무시무시한 독이 든 '홀수' 사과가 있다구!",
+      "background": "door",
+      "nextID": 116
+    },
+    {
+      "id": 116,
+      "speaker": "{playerName}",
+      "text": "“'짝수' 사과의 숫자가 더 크다면 아무리 독이 들어있는 '홀수' 사과라도 이길 수 있어!”",
+      "background": "door",
+      "nextID": 117
+    },
+    {
+      "id": 117,
+      "command": "start_minigame4",
+      "game": "fruit",
+      "nextID": 118
+    },
+    {
+      "id": 118,
+      "speaker": " ",
+      "text": "빨간 망토가 바구니에서 재빨리 사과를 꺼내 늑대에게 던지자, 늑대는 사과에 맞아 정신을 잃고 그 자리에 털썩 쓰러졌습니다.",
+      "background": "grandma",
+      "music": "down",
+      "sfx": "fall",
+      "nextID": 119
+    },
+    {
+      "id": 119,
+      "speaker": " ",
+      "text": "기지를 발휘한 빨간 망토 덕분에, 늑대는 꼼짝없이 붙잡히게 되었습니다.",
+      "background": "grandma",
+      "nextID": 120
+    },
+    {
+      "id": 120,
+      "speaker": "{playerName}",
+      "text": "“할머니! 괜찮으세요? 늑대 뱃속에 계신 거죠? 제가 얼른 구해드릴게요!”",
+      "background": "grandma",
+      "nextID": 121
+    },
+    {
+      "id": 121,
+      "command": "start_minigame5",
+      "game": "maze",
+      "nextID": 122
+    },
+    {
+      "id": 122,
+      "speaker": "{playerName}",
+      "text": "“할머니!”",
+      "background": "grandma",
+      "music": "calm",
+      "nextID": 123
+    },
+    {
+      "id": 123,
+      "speaker": "할머니",
+      "text": "“아이고, 내 사랑하는 빨간 망토야! 정말 고맙다!”",
+      "background": "grandma",
+      "nextID": 124
+    },
+    {
+      "id": 124,
+      "speaker": " ",
+      "text": "다행히 빨간 망토는 늑대 뱃속에서 할머니를 무사히 구해낼 수 있었습니다.",
+      "background": "grandma",
+      "nextID": 125
+    },
+    {
+      "id": 125,
+      "speaker": " ",
+      "text": "빨간 망토는 무서웠던 순간을 떠올리며,",
+      "background": "forest",
+      "nextID": 126
+    },
+    {
+      "id": 126,
+      "speaker": " ",
+      "text": "자신이 엄마의 말씀을 제대로 듣지 않고 늑대와 이야기하느라 시간을 지체했기 때문에 이런 위험한 일이 벌어졌다는 것을 깨달았습니다.",
+      "background": "forest",
+      "nextID": 127
+    },
+    {
+      "id": 127,
+      "speaker": " ",
+      "text": "그리고 다시는 길을 벗어나지 않겠다고 굳게 다짐했습니다.",
+      "background": "forest",
+      "nextID": 128
+    },
+    {
+      "id": 128,
+      "speaker": " ",
+      "text": "할머니와 빨간 망토는 함께 맛있는 과자와 과일을 먹으며, 다시는 늑대에게 속지 않도록 서로에게 약속하고 행복한 시간을 보냈답니다.",
+      "background": "forest",
+      "nextID": 129
+    },
+    {
+      "id": 129,
+      "text": "",
+      "command": "branch_by_personality",
+      "branches": [
+        {
+          "personality": "Kind",
+          "nextID": 10001
+        },
+        {
+          "personality": "Brave",
+          "nextID": 10004
+        },
+        {
+          "personality": "Curious",
+          "nextID": 10007
+        }
+      ]
+    },
+    {
+      "id": 10001,
+      "speaker": " ",
+      "text": "그날 이후, 빨간 망토는 단순히 착한 것만으로는 세상을 지킬 수 없다는 것을 배웠습니다.",
+      "background": "forest",
+      "nextID": 10002
+    },
+    {
+      "id": 10002,
+      "speaker": " ",
+      "text": "진짜 다정함은 상대방의 진심을 알아보고, 위험한 순간에는 단호할 줄도 알아야 한다는 것을 깨달았지요.",
+      "background": "forest",
+      "nextID": 10003
+    },
+    {
+      "id": 10003,
+      "speaker": " ",
+      "text": "그렇게 빨간 망토는 더 깊은 배려를 아는 현명한 아이로 자라났답니다.",
+      "background": "forest",
+      "nextID": -1
+    },
+    {
+      "id": 10004,
+      "speaker": " ",
+      "text": "그날 이후, 빨간 망토는 용감함만으로는 모든 걸 해결할 수 없다는 걸 깨달았습니다.",
+      "background": "forest",
+      "nextID": 10005
+    },
+    {
+      "id": 10005,
+      "speaker": " ",
+      "text": "진짜 용기란 겁 없이 뛰어드는 것이 아니라, 누군가를 지키기 위해 신중하게 행동하는 것임을 알게 되었지요.",
+      "background": "forest",
+      "nextID": 10006
+    },
+    {
+      "id": 10006,
+      "speaker": " ",
+      "text": "그래서 빨간 망토는 더욱 책임감 있는 용기 있는 아이가 되었답니다.",
+      "background": "forest",
+      "nextID": -1
+    },
+    {
+      "id": 10007,
+      "speaker": " ",
+      "text": "그날 이후, 빨간 망토는 아무리 궁금한 게 많아도, 꼭 생각하고 행동해야 한다는 걸 배웠습니다.",
+      "background": "forest",
+      "nextID": 10008
+    },
+    {
+      "id": 10008,
+      "speaker": " ",
+      "text": "자신의 호기심이 누군가를 위험하게 만들 수도 있다는 걸 깨닫고, 더 신중해졌지요.",
+      "background": "forest",
+      "nextID": 10009
+    },
+    {
+      "id": 10009,
+      "speaker": " ",
+      "text": "그래서 빨간 망토는 궁금한 게 생기면 먼저 생각하고 행동하는 똑똑한 아이가 되었답니다.",
+      "background": "forest",
+      "nextID": -1
+    }
+  ]
+}

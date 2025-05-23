@@ -132,12 +132,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\uC81C\uBAA9\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694_-001 (5)_0"
+      name: RedRidingDrawing
       rect:
         serializedVersion: 2
-        x: 6
-        y: 425
-        width: 979
+        x: 0
+        y: 429
+        width: 978
         height: 210
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -145,7 +145,7 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 12cebffd5c3420e30800000000000000
       internalID: 4468208297450400801
@@ -154,45 +154,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\uC81C\uBAA9\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694_-001 (5)_1"
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 425
-        width: 563
-        height: 210
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9f2a05ac833bd190800000000000000
-      internalID: -7936693239153021029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\uC81C\uBAA9\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694_-001 (5)_2"
+      name: RedRidingDrawing_0
       rect:
         serializedVersion: 2
         x: 1005
-        y: 425
+        y: 424
         width: 915
-        height: 210
+        height: 211
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52a3a42e43ed124a0800000000000000
-      internalID: -6619765658541737435
+      spriteID: c5e53a0ce7b40f94ea9a3709abebbb06
+      internalID: 1696431502
       vertices: []
       indices: 
       edges: []
@@ -211,7 +189,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\uC81C\uBAA9\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694_-001 (5)_0": 4468208297450400801
+      RedRidingDrawing: 4468208297450400801
+      RedRidingDrawing_0: 1696431502
+      RedRidingDrawing_1: 618349493
       "\uC81C\uBAA9\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694_-001 (5)_1": -7936693239153021029
       "\uC81C\uBAA9\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694_-001 (5)_2": -6619765658541737435
   mipmapLimitGroupName: 

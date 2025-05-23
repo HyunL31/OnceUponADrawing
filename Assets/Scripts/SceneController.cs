@@ -7,6 +7,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+    public void TaleSelecting ()
+    {
+        SceneManager.LoadScene("TaleSelecting");
+    }
+
     public void Naming()
     {
         SceneManager.LoadScene("Naming");
@@ -14,15 +19,13 @@ public class SceneController : MonoBehaviour
 
     public void Part1()
     {
-        SceneManager.LoadScene("VNPart");
-    }
-
-    public void DrawRedRiding()
-    {
-        SceneManager.LoadScene("DrawingRedRiding");
-
         BGMManager bgmManager = FindAnyObjectByType<BGMManager>();
 
-        Destroy(bgmManager.gameObject);
+        if (bgmManager != null)
+        {
+            Destroy(bgmManager.gameObject);
+        }
+
+        SceneManager.LoadScene("VNPart");
     }
 }

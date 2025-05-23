@@ -1,39 +1,40 @@
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+
+/// <summary>
+/// 홀수, 짝수 사과
+/// </summary>
 
 public class Item : MonoBehaviour
 {
     public TextMeshPro numberText;
+
+    [Header("Odd || Even")]
+    public bool isEvenItem = true;
+
     private int number;
-    private bool isEven;
 
     private void Start()
     {
-        GenerateRandomNumber();
+        GenerateNumber();
     }
 
-    public void GenerateRandomNumber()
+    // 홀수 짝수 랜덤으로 받아오기
+    private void GenerateNumber()
     {
-        float evenChance = 0.60f; // 60% 확률로 짝수 나오게
-
-        if (Random.value < evenChance)
+        if (isEvenItem)
         {
-            int n = Random.Range(1, 50) * 2; // 짝수만
-            number = n;
+            number = Random.Range(1, 50) * 2; // 짝수: 2~98
         }
         else
         {
-            int n = Random.Range(0, 50) * 2 + 1; // 홀수만
-            number = n;
+            number = Random.Range(0, 50) * 2 + 1; // 홀수: 1~99
         }
-
-        isEven = (number % 2 == 0);
 
         if (numberText != null)
         {
             numberText.text = number.ToString();
 
-            // 배경에 숫자 가려지는 현상 방지
             var textRenderer = numberText.GetComponent<Renderer>();
 
             if (textRenderer != null)
@@ -43,12 +44,12 @@ public class Item : MonoBehaviour
         }
     }
 
-    // 플레이어와 부딪히면 제거
+    // 플레이어와 닿았을 때
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            if (isEven)
+            if (isEvenItem)
             {
                 GameManager.Instance.AddScore(1);
             }

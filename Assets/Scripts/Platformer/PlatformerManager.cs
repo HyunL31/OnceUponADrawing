@@ -2,21 +2,34 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-// 하트, 타이머 제어 스크립트
+/// <summary>
+/// 플랫포머 라이프, 타이머 컨트롤
+/// </summary>
+
 public class PlatformerManager : MonoBehaviour
 {
+    public StartManager startManager;
+
     public Image[] hearts;
+
     public TextMeshProUGUI timerText;
 
     void Update()
     {
-        UpdateHearts();
-        UpdateTimer();
+        if (startManager.isStart)
+        {
+            UpdateHearts();
+            UpdateTimer();
+        }
     }
 
+    // 라이프 업데이트
     void UpdateHearts()
     {
-        if (hearts == null) return;
+        if (hearts == null)
+        {
+            return;
+        }
 
         int life = Mathf.Clamp(GameManager.Instance.life, 0, hearts.Length);
 
@@ -29,6 +42,7 @@ public class PlatformerManager : MonoBehaviour
         }
     }
 
+    // 타이머
     void UpdateTimer()
     {
         float timeLeft = Mathf.Max(GameManager.Instance.gameTime, 0f);

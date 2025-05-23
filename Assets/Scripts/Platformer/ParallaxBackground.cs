@@ -1,8 +1,13 @@
 using UnityEngine;
 
-// Platformer 배경 이동 스크립트
+/// <summary>
+/// 배경 이동 스크립트
+/// </summary>
+
 public class ParallaxBackground : MonoBehaviour
 {
+    public StartManager startManager;
+
     public float parallaxSpeed = 0.5f;
     private Transform currentCam;
     private Vector3 previousCam;
@@ -19,10 +24,13 @@ public class ParallaxBackground : MonoBehaviour
 
     void Update()
     {
-        Parallax();
+        if (startManager.isStart)
+        {
+            Parallax();
+        }
     }
 
-    // 배경 무한 연결 메서드
+    // 배경 무한 연결
     private void Parallax()
     {
         // 매 프레임마다 parallaxSpeed만큼 왼쪽으로 이동

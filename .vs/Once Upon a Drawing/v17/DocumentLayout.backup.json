@@ -3,115 +3,68 @@
   "WorkspaceRootPath": "C:\\UnityProject\\Once Upon a Drawing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|c:\\unityproject\\once upon a drawing\\assets\\scripts\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|c:\\unityproject\\once upon a drawing\\assets\\scripts\\famesystem\\mypagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\famesystem\\mypagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|c:\\unityproject\\once upon a drawing\\assets\\scripts\\story\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\story\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\namemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\namemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|c:\\unityproject\\once upon a drawing\\assets\\scripts\\famesystem\\mypagesavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\famesystem\\mypagesavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|c:\\unityproject\\once upon a drawing\\assets\\scripts\\famesystem\\famesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\famesystem\\famesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|c:\\unityproject\\once upon a drawing\\assets\\scripts\\story\\storydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\story\\storydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\StoryButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StoryButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\MyPageSaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MyPageSaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\NameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|c:\\unityproject\\once upon a drawing\\assets\\scripts\\startmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Resources\\Dialogue\\RedHood.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Resources\\Dialogue\\RedHood.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\MyPageManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MyPageManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\platformer\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformer\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\InfoItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InfoItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\fruit\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fruit\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FameSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\flower\\seeddrawingjudge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flower\\seeddrawingjudge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\platformer\\platformermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformer\\platformermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\maze\\grandmafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maze\\grandmafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\maze\\pathdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maze\\pathdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\platformer\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformer\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\shape\\shapequizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shape\\shapequizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\platformer\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformer\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\platformer\\moveleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformer\\moveleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\platformer\\parallaxbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformer\\parallaxbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\platformer\\randomitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformer\\randomitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\platformer\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformer\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\maze\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maze\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\bgmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bgmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\BattleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BattleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\SeedDrawingJudge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SeedDrawingJudge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\drawingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drawingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\drawingloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drawingloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juhyun\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Resources\\Dialogue\\VN.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Resources\\Dialogue\\VN.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -121,347 +74,203 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JsonHelper.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\JsonHelper.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\JsonHelper.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\JsonHelper.cs",
-              "RelativeToolTip": "Assets\\Scripts\\JsonHelper.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwCEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T10:01:31.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PathDraw.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Maze\\PathDraw.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Maze\\PathDraw.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Maze\\PathDraw.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Maze\\PathDraw.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAzwDwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:48:01.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GrandmaFollow.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Maze\\GrandmaFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Maze\\GrandmaFollow.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Maze\\GrandmaFollow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Maze\\GrandmaFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T06:17:36.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DialogueManager.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DialogueManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueManager.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DialogueManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueManager.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAkwJ0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T14:14:49.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlatformerManager.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\PlatformerManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platformer\\PlatformerManager.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\PlatformerManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platformer\\PlatformerManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T11:32:08.996Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Title": "DialogueManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\DialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Story\\DialogueManager.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\DialogueManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Story\\DialogueManager.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAJQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:20:11.228Z",
+              "WhenOpened": "2025-05-23T12:10:52.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SeedDrawingJudge.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Flower\\SeedDrawingJudge.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Flower\\SeedDrawingJudge.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Flower\\SeedDrawingJudge.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Flower\\SeedDrawingJudge.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MyPageManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem\\MyPageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FameSystem\\MyPageManager.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem\\MyPageManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FameSystem\\MyPageManager.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwCMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:37:44.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "VN.json",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Resources\\Dialogue\\VN.json",
-              "RelativeDocumentMoniker": "Assets\\Resources\\Dialogue\\VN.json",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Resources\\Dialogue\\VN.json",
-              "RelativeToolTip": "Assets\\Resources\\Dialogue\\VN.json",
-              "ViewState": "AgIAABIDAAAAAAAAAAAiwCYDAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-12T13:55:16.175Z",
+              "WhenOpened": "2025-05-23T11:56:45.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BattleManager.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Fruit\\BattleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Fruit\\BattleManager.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Fruit\\BattleManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Fruit\\BattleManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "StoryDatabase.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\StoryDatabase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Story\\StoryDatabase.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\StoryDatabase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Story\\StoryDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T17:16:02.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TitleController.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\TitleController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TitleController.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\TitleController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TitleController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswDcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T13:48:56.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SceneController.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\SceneController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneController.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\SceneController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:25:52.846Z",
+              "WhenOpened": "2025-05-23T11:51:34.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MyPageSaveManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem\\MyPageSaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FameSystem\\MyPageSaveManager.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem\\MyPageSaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FameSystem\\MyPageSaveManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvykAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:48:41.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FameSystem.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem\\FameSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FameSystem\\FameSystem.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem\\FameSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FameSystem\\FameSystem.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAA5wIIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:47:57.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StartManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\StartManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StartManager.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\StartManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StartManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:35:46.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "NameManager.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\NameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NameManager.cs",
               "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\NameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\NameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T16:08:18.686Z",
+              "WhenOpened": "2025-05-23T08:06:52.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tutorial.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Tutorial.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Tutorial.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:04:15.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ShapeQuizManager.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Shape\\ShapeQuizManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Shape\\ShapeQuizManager.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Shape\\ShapeQuizManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Shape\\ShapeQuizManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T16:35:19.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platformer\\PlayerController.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platformer\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:42:31.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platformer\\GameManager.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platformer\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:43:49.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BattleManager.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\BattleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleManager.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\BattleManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BattleManager.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:53:54.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SeedDrawingJudge.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\SeedDrawingJudge.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SeedDrawingJudge.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\SeedDrawingJudge.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SeedDrawingJudge.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:56:53.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Timer.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Maze\\Timer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Maze\\Timer.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Maze\\Timer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Maze\\Timer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T02:57:23.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RandomItem.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\RandomItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platformer\\RandomItem.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\RandomItem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platformer\\RandomItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:42:21.502Z"
+              "DocumentIndex": 10,
+              "Title": "RedHood.json",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Resources\\Dialogue\\RedHood.json",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Dialogue\\RedHood.json",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Resources\\Dialogue\\RedHood.json",
+              "RelativeToolTip": "Assets\\Resources\\Dialogue\\RedHood.json",
+              "ViewState": "AgIAAL0EAAAAAAAAAAAqwNYEAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T07:59:47.13Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "MoveLeft.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\MoveLeft.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platformer\\MoveLeft.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\MoveLeft.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platformer\\MoveLeft.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Title": "DialogueManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueManager.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DialogueManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueManager.cs",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAAAD0BAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T11:00:31.311Z"
+              "WhenOpened": "2025-05-23T07:59:22.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StoryButton.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\StoryButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StoryButton.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\StoryButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StoryButton.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:50:08.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SceneController.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\SceneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneController.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\SceneController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:47:13.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyPageManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\MyPageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MyPageManager.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\MyPageManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MyPageManager.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADgv0AAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:30:40.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyPageSaveManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\MyPageSaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MyPageSaveManager.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\MyPageSaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MyPageSaveManager.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:30:37.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InfoItem.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\InfoItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InfoItem.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\InfoItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InfoItem.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:27:47.74Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\Item.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platformer\\Item.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\Item.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platformer\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Title": "FameSystem.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FameSystem.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FameSystem.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwDsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T10:46:07.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LevelGenerator.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\LevelGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platformer\\LevelGenerator.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\LevelGenerator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platformer\\LevelGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T10:44:20.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BGMManager.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\BGMManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BGMManager.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\BGMManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BGMManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T04:54:14.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "settings.json",
-              "DocumentMoniker": "C:\\Users\\Juhyun\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\settings.json",
-              "RelativeDocumentMoniker": "..\\..\\Users\\Juhyun\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\settings.json",
-              "ToolTip": "C:\\Users\\Juhyun\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\settings.json",
-              "RelativeToolTip": "..\\..\\Users\\Juhyun\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-04T15:01:08.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:20:24.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DrawingLoader.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DrawingLoader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DrawingLoader.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DrawingLoader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DrawingLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T12:37:46.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DrawingSystem.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DrawingSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DrawingSystem.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DrawingSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DrawingSystem.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwv54AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:12:34.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ParallaxBackground.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\ParallaxBackground.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platformer\\ParallaxBackground.cs",
-              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Platformer\\ParallaxBackground.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platformer\\ParallaxBackground.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T12:45:07.577Z"
+              "WhenOpened": "2025-05-16T03:40:00.818Z"
             }
           ]
         }
