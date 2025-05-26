@@ -18,46 +18,25 @@ public class StoryButton : MonoBehaviour
     public Image mainCharacter;
     public Button button;
 
-    // 동화 데이터
-    [System.Serializable]
-    public class StoryData
-    {
-        public int id;
-        public string storyCode;
-        public string storyName; 
-        public string sceneName;
-        public Sprite titleImage;
-        public Sprite characterImage;
-        public bool isImplemented; 
-    }
-
     private StoryData storyData;
 
     void Start()
     {
-        // 스토리 DB에서 동화 가져오기
         storyData = StoryDatabase.Instance.GetStoryById(storyID);
 
-        if (storyData == null)
-        {
-            return;
-        }
+        if (storyData == null) return;
 
-        // 버튼 UI 설정
         taleTitle.sprite = storyData.titleImage;
         mainCharacter.sprite = storyData.characterImage;
 
         UpdateUI();
 
-        button.onClick.AddListener(() => {
+        button.onClick.AddListener(() =>
+        {
             if (storyData.isImplemented)
             {
                 PlayerPrefs.SetString("CurrentStoryCode", storyData.storyCode);
-
-                if (storyData.storyCode == "RedHood")
-                {
-                    SceneManager.LoadScene(storyData.sceneName);
-                }
+                SceneManager.LoadScene(storyData.sceneName);
             }
             else
             {

@@ -1692,27 +1692,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyList:
-  - id: 1
-    storyCode: RedHood
-    storyName: "\uBE68\uAC04 \uB9DD\uD1A0"
-    sceneName: DrawingRedRiding
-    titleImage: {fileID: -1157829933, guid: f672db781def72a409e994e313d27629, type: 3}
-    characterImage: {fileID: -6152483195893963834, guid: 97d32a5ff4e0f8c43a6565368cc780cd, type: 3}
-    isImplemented: 1
-  - id: 2
-    storyCode: Mermaid
-    storyName: "\uC778\uC5B4\uACF5\uC8FC"
-    sceneName: DrawingMermaid
-    titleImage: {fileID: -5195534885284943831, guid: ec84b9cf6d2a90146a3e59424face299, type: 3}
-    characterImage: {fileID: -7742604394264865920, guid: ec84b9cf6d2a90146a3e59424face299, type: 3}
-    isImplemented: 0
-  - id: 3
-    storyCode: 
-    storyName: "\uD5E8\uC824\uACFC \uADF8\uB808\uD154"
-    sceneName: DrawingCookie
-    titleImage: {fileID: 0}
-    characterImage: {fileID: 0}
-    isImplemented: 0
+  - {fileID: 11400000, guid: e13976749aac7904ca0f0fe90bb26f87, type: 2}
+  - {fileID: 11400000, guid: ae2ef0ac09b1413489993de3a24e0484, type: 2}
+  - {fileID: 11400000, guid: 986267aefb8322c49a4af13225074cc0, type: 2}
 --- !u!4 &832206305
 Transform:
   m_ObjectHideFlags: 0

@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\UnityProject\\Once Upon a Drawing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|c:\\unityproject\\once upon a drawing\\assets\\scripts\\famesystem\\mypagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|c:\\unityproject\\once upon a drawing\\assets\\scripts\\story\\storydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\story\\storydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\story\\storybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\story\\storybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|C:\\UnityProject\\Once Upon a Drawing\\assets\\scripts\\famesystem\\mypagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02A25952-EEAB-5FC1-935A-95E07ADF4657}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\famesystem\\mypagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -78,7 +86,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "StoryButton.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\StoryButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Story\\StoryButton.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\StoryButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Story\\StoryButton.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvxcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:19:54.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoryData.cs",
+              "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\StoryData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Story\\StoryData.cs",
+              "ToolTip": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\StoryData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Story\\StoryData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:18:58.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DialogueManager.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\DialogueManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Story\\DialogueManager.cs",
@@ -90,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MyPageManager.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem\\MyPageManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FameSystem\\MyPageManager.cs",
@@ -98,12 +132,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FameSystem\\MyPageManager.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADwvxYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T11:56:45.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T11:56:45.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "StoryDatabase.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Story\\StoryDatabase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Story\\StoryDatabase.cs",
@@ -115,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MyPageSaveManager.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem\\MyPageSaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FameSystem\\MyPageSaveManager.cs",
@@ -127,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FameSystem.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem\\FameSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FameSystem\\FameSystem.cs",
@@ -135,12 +168,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FameSystem\\FameSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T11:47:57.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T11:47:57.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "StartManager.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\StartManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartManager.cs",
@@ -152,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "NameManager.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\NameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NameManager.cs",
@@ -163,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Tutorial.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\Tutorial.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial.cs",
@@ -175,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RedHood.json",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Resources\\Dialogue\\RedHood.json",
               "RelativeDocumentMoniker": "Assets\\Resources\\Dialogue\\RedHood.json",
@@ -183,11 +215,12 @@
               "RelativeToolTip": "Assets\\Resources\\Dialogue\\RedHood.json",
               "ViewState": "AgIAAL0EAAAAAAAAAAAqwNYEAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-23T07:59:47.13Z"
+              "WhenOpened": "2025-05-23T07:59:47.13Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "DialogueManager.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\DialogueManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueManager.cs",
@@ -199,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "StoryButton.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\StoryButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StoryButton.cs",
@@ -210,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SceneController.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\SceneController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneController.cs",
@@ -222,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MyPageManager.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\MyPageManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MyPageManager.cs",
@@ -234,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MyPageSaveManager.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\MyPageSaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MyPageSaveManager.cs",
@@ -245,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "InfoItem.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\InfoItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InfoItem.cs",
@@ -257,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "FameSystem.cs",
               "DocumentMoniker": "C:\\UnityProject\\Once Upon a Drawing\\Assets\\Scripts\\FameSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FameSystem.cs",

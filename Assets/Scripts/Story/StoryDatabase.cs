@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using static StoryButton;   // StoryData 클래스 사용
 
 /// <summary>
 /// 동화 목록 & 정보 데이터베이스

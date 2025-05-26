@@ -93,17 +93,11 @@ public class StoryUnlockManager : MonoBehaviour
 
         foreach (int id in progress.unlockedStoryIDs)
         {
-            switch (id)
+            var data = StoryDatabase.Instance.GetStoryById(id);
+
+            if (data != null)
             {
-                case 1:
-                    codes.Add("RedHood");
-                    break;
-                case 2:
-                    codes.Add("Mermaid");
-                    break;
-                default:
-                    codes.Add($"Story{id}");
-                    break;
+                codes.Add(data.storyCode);
             }
         }
 
@@ -117,17 +111,11 @@ public class StoryUnlockManager : MonoBehaviour
 
         foreach (int id in progress.unlockedStoryIDs)
         {
-            switch (id)
+            var data = StoryDatabase.Instance.GetStoryById(id);
+
+            if (data != null)
             {
-                case 1:
-                    names.Add("빨간 망토");
-                    break;
-                case 2:
-                    names.Add("인어공주");
-                    break;
-                default:
-                    names.Add($"동화 {id}번");
-                    break;
+                names.Add(data.storyName);
             }
         }
 

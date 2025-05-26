@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b52d37b8bb9fcc4496fee67d04ae965, type: 3}
+  m_Name: RedHood
+  m_EditorClassIdentifier: 
+  id: 1
+  storyCode: RedHood
+  storyName: "\uBE68\uAC04 \uB9DD\uD1A0"
+  sceneName: DrawingRedRiding
+  titleImage: {fileID: -1157829933, guid: f672db781def72a409e994e313d27629, type: 3}
+  characterImage: {fileID: -6152483195893963834, guid: 97d32a5ff4e0f8c43a6565368cc780cd, type: 3}
+  isImplemented: 1

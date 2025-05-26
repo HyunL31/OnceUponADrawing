@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b52d37b8bb9fcc4496fee67d04ae965, type: 3}
+  m_Name: Mermaid
+  m_EditorClassIdentifier: 
+  id: 2
+  storyCode: Mermaid
+  storyName: "\uC778\uC5B4\uACF5\uC8FC"
+  sceneName: DrawingMermaid
+  titleImage: {fileID: -5195534885284943831, guid: ec84b9cf6d2a90146a3e59424face299, type: 3}
+  characterImage: {fileID: -7742604394264865920, guid: ec84b9cf6d2a90146a3e59424face299, type: 3}
+  isImplemented: 0
